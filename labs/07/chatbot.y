@@ -164,7 +164,7 @@ char* getPokemon(){
             init_string(&s);
         }
 
-        curl_easy_cleanup(curl);
+        curl_easy_cleanup(curl); 
     }
 
     free(s.ptr);

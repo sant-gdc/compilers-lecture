@@ -19,7 +19,7 @@ choose[' ']a[' ']pokemon { return POKEMON; }
 how[' ']are[' ']you { return FEELING; }
 \n              { return 0; }  /* End of input on newline */
 
-.               { return yytext[0]; }
+.               { return yytext[0]; } 
 
 %%
 
